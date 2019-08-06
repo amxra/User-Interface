@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+p{
+	font-family: 'Montserrat', sans-serif;
+
+}
 
 .container{
 	
@@ -72,6 +76,12 @@ h1, h2, h3, h4, h5 {
 	margin: 20px auto;
 }
 
+header{
+	background-color: #d3d3d3;
+	position: fixed;
+	top: 0;
+	width: 900px;
+}
 
 nav ul li{
 	display: inline;
@@ -131,14 +141,14 @@ img.logo{
 
 	width: 445px;
 	display: inline-block;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .main-text2{
 
 	width: 294px;
 	display: inline-block;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 main img{
