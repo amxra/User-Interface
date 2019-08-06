@@ -98,23 +98,33 @@ img.logo{
 
 
 .banner{
-	border: 1px solid blue;
+
 	height: 300px;
 }
 
 .banner-text{
+
 	display: inline-block;
-	height: 100px;
-	margin: 100px;
+	width: 600px;
+	text-align: center;
 }
 
-.banner img{
-	height: 250px;
-	display: inline-block;
+.banner-text h1{
+	font-size: 48px;
 }
 
-.banner-text{
-	border: 1px solid red;
+.banner-image{
+
+	height: 200px;
+	display: inline-block;
+	width: 200px;
+	margin-top: 50px;
+
+}
+
+.banner-image img{
+	height: 200px;
+	display: inline-block;
 }
 
 .main-text{
