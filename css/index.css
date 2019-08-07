@@ -94,13 +94,15 @@ ul li a{
 	margin: 15px;
 }
 
-nav, nav ul, header img{
-	display: inline;
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
 }
 
-nav{
-	margin-right: 200px;
-}
+
+
 
 img.logo{
 	width: 150px;
